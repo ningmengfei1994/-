@@ -1,0 +1,70 @@
+/* 公共样式 */
+
+
+/*清除元素默认格式（内外边距清理）*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*清除表单轮廓线*/
+
+input {
+    outline: none;
+}
+
+
+/*清除小点点*/
+
+li {
+    list-style: none;
+}
+
+
+/*清除浮动*/
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+/*清除链接下划线*/
+
+a {
+    text-decoration: none;
+}
+
+
+/* 公用网页头，网页底部 */
+
+.my-header {
+    background-color: #006699;
+}
+
+.mui-title {
+    color: #fff;
+}
+
+.mui-icon {
+    color: #fff;
+}
+
+.my-footer {
+    background-color: #006699;
+}
+
+.my-footer .mui-tab-item.mui-active {
+    color: pink;
+}

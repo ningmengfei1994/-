@@ -1,0 +1,87 @@
+.nav-links {
+    padding: 10px;
+}
+
+.nav-links a {
+    width: 33.33%;
+    float: left;
+}
+
+.nav-links a img {
+    width: 100%;
+    /* 去除图片头部距离 */
+    vertical-align: top;
+}
+
+.brand {
+    padding: 0 10px;
+}
+
+.brand .title {
+    width: 100%;
+}
+
+.brand ul img {
+    margin-top: 5px;
+    width: 25%;
+    float: left;
+}
+
+.product {
+    margin: 10px 10px;
+}
+
+.product .title {
+    width: 100%;
+}
+
+.product ul li img {
+    width: 100%;
+}
+
+.product ul li {
+    width: 50%;
+}
+
+.product ul li {
+    display: block;
+    float: left;
+    box-shadow: 0 0 5px #ccc;
+    padding: 5px;
+    color: #bcbac0;
+    font-size: 14px;
+}
+
+.product ul li .name {
+    display: block;
+    color: #8f8f94;
+    font-size: 14px;
+    text-align: center;
+}
+
+.product ul li p {
+    padding-top: 5px;
+    text-align: center;
+}
+
+.product ul li p span:first-child {
+    color: #f20;
+    padding-right: 2px;
+}
+
+.product ul li p span:last-child {
+    text-decoration: line-through;
+    padding-left: 2px;
+}
+
+.product ul li .buy-now {
+    display: block;
+    width: 80px;
+    height: 30px;
+    background: #006699;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto 5px auto;
+    border-radius: 4px;
+}
